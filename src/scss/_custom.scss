@@ -1,0 +1,27 @@
+// Here you can add other styles
+body {
+  background-color: #ececec !important;
+}
+
+.ant-avatar {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.status-icon {
+  max-height: 55px;
+  height: 100%;
+}
+
+.ant-pagination {
+  line-height: 25px !important;
+}
+
+.ant-pagination .ant-pagination-item-container {
+  line-height: 33px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
