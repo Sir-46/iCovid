@@ -59,7 +59,9 @@ const index = ({
                 />
                 {new_cases !== 0 && (
                   <div style={{ marginLeft: 10 }}>
-                    <Tag color="green">{new_cases}</Tag>
+                    <Tag color="green" style={{ fontSize: 16 }}>
+                      {new_cases}
+                    </Tag>
                   </div>
                 )}
               </div>

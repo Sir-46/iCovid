@@ -1,7 +1,4 @@
-``` bash
-# clone the repo
-$ git clone https://github.com/coreui/coreui-pro-react-admin-template.git my-project
-
+```bash
 # go into app's directory
 $ cd my-project
 
@@ -13,7 +10,7 @@ $ npm install
 
 Copy all your files to your project folder and then,
 
-``` bash
+```bash
 # go into app's directory
 $ cd my-project
 
@@ -22,6 +19,7 @@ $ npm install
 ```
 
 ## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 see also:
@@ -29,7 +27,7 @@ see also:
 
 ### Basic usage
 
-``` bash
+```bash
 # dev server  with hot reload at http://localhost:3000
 $ npm start
 ```
@@ -70,8 +68,7 @@ CoreUI-React#v2.0.0
 
 ## Documentation
 
-The documentation for the CoreUI  Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
-
+The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
 
 ## Versioning
 
@@ -82,11 +79,13 @@ See [the Releases section of our project](https://github.com/coreui/coreui-pro-r
 ## Creators
 
 **Łukasz Holeczek**
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+
+- <https://twitter.com/lukaszholeczek>
+- <https://github.com/mrholek>
 
 **Andrzej Kopański**
-* <https://github.com/xidedix>
+
+- <https://github.com/xidedix>
 
 ## Community
 
