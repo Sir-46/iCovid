@@ -12,7 +12,7 @@ $ npm install
 
 ## Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+This project was [antd] with [Create React App](https://github.com/facebook/create-react-app)
 
 see also:
 [User Guide](CRA.md)

@@ -40,3 +40,9 @@ body {
   height: 28px;
   border-radius: 10px;
 }
+
+.ant-typography-copy,
+.ant-typography {
+  display: flex !important;
+  align-items: center;
+}

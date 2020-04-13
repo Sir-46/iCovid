@@ -1,1 +1,1 @@
-export const url_api = "ff";
+export const url_api = "https://covid.thetripleinnovation.com/api";
