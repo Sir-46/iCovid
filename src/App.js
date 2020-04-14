@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import "antd/dist/antd.css";
 
@@ -15,17 +15,17 @@ const DefaultLayout = React.lazy(() => import("./containers/DefaultLayout"));
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter basename="https://covid.thetripleinnovation.com/cms/">
         <React.Suspense fallback={loading()}>
           <Switch>
             <Route
               path="/"
               name="Home"
-              render={props => <DefaultLayout {...props} />}
+              render={(props) => <DefaultLayout {...props} />}
             />
           </Switch>
         </React.Suspense>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

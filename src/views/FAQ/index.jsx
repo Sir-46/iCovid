@@ -23,11 +23,13 @@ const Index = () => {
       title: "intentId",
       dataIndex: "_id",
       render: (text) => {
-        return (
-          <Paragraph copyable>
-            {intent.map((item) => item.responseId === text && item._id)}
-          </Paragraph>
-        );
+        return intent
+          .filter((item) => item.responseId === text && item._id)
+          .map((val, index) => (
+            <Paragraph key={index} copyable>
+              {val._id}
+            </Paragraph>
+          ));
       },
     },
   ];
